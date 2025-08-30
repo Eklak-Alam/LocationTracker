@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { FaHome, FaMapMarkerAlt, FaShare, FaInfoCircle, FaGithub, FaBars, FaTimes, FaUser, FaCog } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Contact } from 'lucide-react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,9 +32,9 @@ export default function Navbar() {
   const navItems = [
     { name: 'Home', icon: <FaHome className="text-lg" />, href: '/' },
     { name: 'Tracker', icon: <FaMapMarkerAlt className="text-lg" />, href: '/tracker' },
-    { name: 'Share', icon: <FaShare className="text-lg" />, href: '/share' },
     { name: 'About', icon: <FaInfoCircle className="text-lg" />, href: '/about' },
-    { name: 'GitHub', icon: <FaGithub className="text-lg" />, href: 'https://github.com' },
+    { name: 'GitHub', icon: <FaGithub className="text-lg" />, href: 'https://github.com/Eklak-Alam/LocationTracker' },
+    { name: 'Contact', icon: <Contact className="text-lg" />, href: '/contact' },
   ];
 
   return (

@@ -11,7 +11,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-gray-900 text-white pt-16 pb-8 px-4 sm:px-6 lg:px-8">
+    <footer className="bg-gradient-to-br from-gray-900 to-gray-950 text-white pt-16 pb-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="flex space-x-4">
               <motion.a
                 whileHover={{ y: -5, scale: 1.1 }}
-                href="https://github.com"
+                href="https://github.com/Eklak-Alam"
                 className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors duration-300"
                 aria-label="GitHub"
               >
@@ -43,7 +43,7 @@ export default function Footer() {
               </motion.a>
               <motion.a
                 whileHover={{ y: -5, scale: 1.1 }}
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/eklak-alam-40ba632b5/"
                 className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors duration-300"
                 aria-label="LinkedIn"
               >
@@ -51,7 +51,7 @@ export default function Footer() {
               </motion.a>
               <motion.a
                 whileHover={{ y: -5, scale: 1.1 }}
-                href="https://twitter.com"
+                href="https://x.com/dev_eklak"
                 className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors duration-300"
                 aria-label="Twitter"
               >
@@ -59,7 +59,7 @@ export default function Footer() {
               </motion.a>
               <motion.a
                 whileHover={{ y: -5, scale: 1.1 }}
-                href="https://instagram.com"
+                href="https://www.instagram.com/eklak__alam/"
                 className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors duration-300"
                 aria-label="Instagram"
               >
@@ -80,13 +80,13 @@ export default function Footer() {
               <span className="absolute bottom-0 left-0 w-12 h-0.5 bg-blue-600"></span>
             </h3>
             <ul className="space-y-3">
-              {['Home', 'Tracker', 'Share', 'About', 'Contact'].map((item, index) => (
+              {['Home', 'Tracker', 'About', 'Contact'].map((item, index) => (
                 <motion.li 
                   key={index}
                   whileHover={{ x: 5 }}
                   transition={{ duration: 0.2 }}
                 >
-                  <a href={`#${item.toLowerCase()}`} className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
+                  <a href={`/${item.toLowerCase()}`} className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
                     {item}
                   </a>
                 </motion.li>

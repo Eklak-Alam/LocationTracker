@@ -241,7 +241,7 @@ ${!address ? 'Note: Address details are currently unavailable. This could be due
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-blue-900 text-white p-5 pt-44 pb-20">
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-950 text-white p-5 pt-24 lg:pt-44 pb-20">
       <div className="max-w-6xl mx-auto">
         {/* Header Section */}
         <motion.div
@@ -250,10 +250,10 @@ ${!address ? 'Note: Address details are currently unavailable. This could be due
           transition={{ duration: 0.5 }}
           className="text-center mb-8"
         >
-          <h1 className="text-4xl font-bold flex items-center justify-center gap-3">
+          <h1 className="text-2xl lg:text-4xl font-bold flex items-center justify-center gap-3">
             <FaCompass className="text-blue-400" /> Location Tracker
           </h1>
-          <p className="text-gray-300 mt-2">Track your current location and share it with others</p>
+          <p className="text-gray-300 mt-2 text-sm lg:text-xl">Track your current location and share it with others</p>
           
           {/* API Status Indicator */}
           {apiStatus === 'unavailable' && (
