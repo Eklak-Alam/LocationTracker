@@ -137,7 +137,7 @@ export default function Footer() {
                 className="flex items-start"
               >
                 <FaMapMarkerAlt className="text-blue-500 mt-1 mr-3 flex-shrink-0" />
-                <span className="text-gray-400">123 Location Street, City, Country</span>
+                <span className="text-gray-400">Chapra, Bihar, India</span>
               </motion.div>
               <motion.div 
                 whileHover={{ x: 5 }}
@@ -145,7 +145,7 @@ export default function Footer() {
               >
                 <FaPhone className="text-blue-500 mr-3 flex-shrink-0" />
                 <a href="tel:+1234567890" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
-                  +1 (234) 567-890
+                  +91 9473384492
                 </a>
               </motion.div>
               <motion.div 
@@ -154,7 +154,7 @@ export default function Footer() {
               >
                 <FaEnvelope className="text-blue-500 mr-3 flex-shrink-0" />
                 <a href="mailto:info@locationtracker.com" className="text-gray-400 hover:text-blue-400 transition-colors duration-300">
-                  info@locationtracker.com
+                  eklakalam420@gmail.com
                 </a>
               </motion.div>
             </div>
